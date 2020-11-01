@@ -1,0 +1,107 @@
+body {
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    overflow-x: hidden;
+    color: white;
+}
+
+nav {
+    background-color: #313142;
+    color: #42F5EC;
+    display: block;
+    height: 600px;
+    font-size: large;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #FCBAD6;
+    display: block;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+    padding: 10px 5%;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin: 600px 5% 0 5%;
+    font-size: large;
+}
+
+header {
+    padding-top: 15px;
+    color: #42F5EC;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+h3 {
+    color: #FCBAD6;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.code {
+    font-size: small;
+    overflow-wrap: break-word;
+    display: block;
+    background-color: #313142;
+    padding: 5px;
+}
+
+
+@media only screen and (min-width: 400px) {
+    .narrowimg {
+        width: auto;
+        position: relative;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, 0);
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    #gaovdrop {
+        width: auto;
+        position: relative;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, 0);
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    main {
+        width: 630px;
+        margin: 600px auto 0 auto;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    nav {
+        width: 200px;
+        height: 100%;
+        position: fixed;
+    }
+
+    a {
+        padding: 6.5% 5%;
+    }
+
+    main {
+        width: 630px;
+        margin: 0 300px;
+    }
+}
