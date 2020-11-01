@@ -72,9 +72,13 @@ Test out some of my understanding of Google Analytics and producing a page that 
 
 Running this project locally should be nice and easy! Either download the repository from Github or use the viewer on Codepen.
 
-### Prerequisites: None
+### Prerequisites
 
-### Running: Once you've downloaded and unzipped the repo file, simply open up the index.html in your browser.
+None
+
+### Running
+
+Once you've downloaded and unzipped the repo file, simply open up the index.html in your browser.
 
 
 ## Built With
