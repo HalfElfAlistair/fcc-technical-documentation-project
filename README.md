@@ -122,4 +122,6 @@ An excellent and important tool that provided the inspiration for my page conten
 
 If I'm honest I should've read the brief more clearly before embarking on this project. I didn't initially realise I needed to use the code element for this. Rather than starting again from scratch, I kind of forced some code samples into the project. This was easy enough when explaining how to get started with Google Analytics as you need the JavaScript tracking code. I was still short on the minimum 5 code element limit though so added something about hreflang on international sites. So a bit of a blag at times but the content isn't the point to the project so it matters not.
 
-The appearance on this project isn't up to much in my opinion. A lot of examples were pretty plain 'black text on white background' so I decided to go for the opposite. I thought a little bit of colour thrown in for headings too, though I'm not sure it worked. Provided it all passes contrast checks and is readable then it's not a major issue as this isn't the type of page that's super important for a marketing process or anything.
+Another issue I had with the brief was it's requirement that I used <header> instead of <h1>, <h2> etc. This goes against usual convention and I'm still not sure why it was required.
+
+The initial appearance on this project wasn't up to much in my opinion. I've since gone back and changed this and am happier with the result.
