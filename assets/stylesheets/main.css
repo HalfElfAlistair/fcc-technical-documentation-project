@@ -82,7 +82,7 @@ img {
 }
 
 
-@media screen and (min-width: 400px) {
+@media only screen and (min-width: 400px) {
     .narrowimg {
         width: auto;
         position: relative;
@@ -92,7 +92,7 @@ img {
     }
 }
 
-@media screen and (min-width: 500px) {
+@media only screen and (min-width: 500px) {
     #gaovdrop {
         width: auto;
         position: relative;
@@ -102,7 +102,7 @@ img {
     }
 }
 
-@media screen and (min-width: 700px) {
+@media only screen and (min-width: 700px) {
     main {
         width: 630px;
         margin: 100vh auto 0 auto;
@@ -126,7 +126,7 @@ img {
 	}
 }
 
-@media screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) {
 
     nav {
         height: 100vh;
@@ -151,7 +151,7 @@ img {
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
     h1 {
 		font-size: 38px;
 	}
@@ -171,7 +171,7 @@ img {
 }
 
 
-@media screen and (min-width: 1250px) {
+@media only screen and (min-width: 1250px) {
     nav {
         width: 300px;
     }
