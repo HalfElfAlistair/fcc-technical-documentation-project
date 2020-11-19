@@ -111,7 +111,7 @@ Their colour contrast checker is a go to for me every time so I can ensure my wo
 ### [Coolors.co](https://coolors.co/)
 I use their 'create a palette' tool to help me select a colour scheme.
 
-### [Awesome Screenshot & Screen Recorder]](https://www.awesomescreenshot.com/)
+### [Awesome Screenshot & Screen Recorder](https://www.awesomescreenshot.com/)
 This plugin was really helpful for me to obtain images for my technical documentation page.
 
 ### [Google Analytics](https://analytics.google.com/analytics/web)
