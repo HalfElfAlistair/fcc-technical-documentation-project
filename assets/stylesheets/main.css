@@ -1,31 +1,39 @@
 body {
     max-width: 100%;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
+    background-color: #F6F6F6;
     overflow-x: hidden;
-    color: white;
+    color: #3D3D3D;
+    line-height: 1.6;
 }
 
 nav {
-    background-color: #313142;
-    color: #42F5EC;
+    background-color: #44445A;
+    color: #F6F6F6;
     display: block;
-    height: 600px;
+    height: 100vh;
     font-size: large;
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
+    border-right: solid 2px #44445A;
+}
+
+nav header {
+    background-color: #F6F6F6;
+    padding: 2vh 5%;
+    font-size: 4.62vh;
+    margin-bottom: 2vh;
 }
 
 a {
     text-decoration: none;
-    color: #FCBAD6;
+    color: #E6E6E6;
     display: block;
-    border-top: solid 1px white;
-    border-bottom: solid 1px white;
-    padding: 10px 5%;
+    padding: 2vh 5%;
     font-weight: bold;
+    font-size: 2.6vh;
 }
 
 a:hover {
@@ -33,19 +41,30 @@ a:hover {
 }
 
 main {
-    margin: 600px 5% 0 5%;
-    font-size: large;
+    margin: 100vh 5% 0 5%;
+}
+
+section {
+    padding: 20px 0;
 }
 
 header {
-    padding-top: 15px;
-    color: #42F5EC;
+    padding: 20px 0;
+    color: #44445A;
     font-size: x-large;
     font-weight: bold;
 }
 
+h1,
+h2,
+h3,
+header {
+    line-height: 1.2;
+}
+
 h3 {
-    color: #FCBAD6;
+    color: #1A1A1A;
+    padding: 20px 0;
 }
 
 img {
@@ -57,12 +76,13 @@ img {
     font-size: small;
     overflow-wrap: break-word;
     display: block;
-    background-color: #313142;
-    padding: 5px;
+    background-color: #44445A;
+    color: #F6F6F6;
+    padding: 20px;
 }
 
 
-@media only screen and (min-width: 400px) {
+@media screen and (min-width: 400px) {
     .narrowimg {
         width: auto;
         position: relative;
@@ -72,7 +92,7 @@ img {
     }
 }
 
-@media only screen and (min-width: 500px) {
+@media screen and (min-width: 500px) {
     #gaovdrop {
         width: auto;
         position: relative;
@@ -82,26 +102,82 @@ img {
     }
 }
 
-@media only screen and (min-width: 700px) {
+@media screen and (min-width: 700px) {
     main {
         width: 630px;
-        margin: 600px auto 0 auto;
+        margin: 100vh auto 0 auto;
     }
+
+    h1 {
+		font-size: 34px;
+	}
+
+	h2 {
+		font-size: 26px;
+	}
+
+	h3 {
+		font-size: 20px;
+	}
+
+	p,
+	ul {
+		font-size: 17px;
+	}
 }
 
-@media only screen and (min-width: 992px) {
+@media screen and (min-width: 992px) {
+
     nav {
+        height: 100vh;
         width: 200px;
-        height: 100%;
         position: fixed;
     }
-
+    
+    nav header {
+        padding: 1.8vh 5%;
+        font-size: 4vh;
+        margin-bottom: 3.6vh;
+    }
+    
     a {
-        padding: 6.5% 5%;
+        padding: 1.8vh 5%;
+        font-size: 2vh;
     }
 
     main {
         width: 630px;
         margin: 0 300px;
     }
+}
+
+@media screen and (min-width: 1024px) {
+    h1 {
+		font-size: 38px;
+	}
+
+	h2 {
+		font-size: 28px;
+	}
+
+	h3 {
+		font-size: 21px;
+	}
+
+	p,
+	ul {
+		font-size: 18px;
+	}
+}
+
+
+@media screen and (min-width: 1250px) {
+    nav {
+        width: 300px;
+    }
+
+    main {
+        margin: 0 400px;
+    }
+
 }
