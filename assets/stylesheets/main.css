@@ -22,9 +22,11 @@ nav {
 
 nav header {
     background-color: #F6F6F6;
-    padding: 2vh 5%;
+    padding: 0.2vh 5%;
+}
+
+h1 {
     font-size: 4.62vh;
-    margin-bottom: 2vh;
 }
 
 a {
@@ -33,7 +35,7 @@ a {
     display: block;
     padding: 2vh 5%;
     font-weight: bold;
-    font-size: 2.6vh;
+    font-size: 2.4vh;
 }
 
 a:hover {
@@ -136,12 +138,15 @@ img {
     
     nav header {
         padding: 1.8vh 5%;
-        font-size: 4vh;
         margin-bottom: 3.6vh;
+    }
+
+    h1 {
+        font-size: 4vh;
     }
     
     a {
-        padding: 1.8vh 5%;
+        padding: 1.2vh 5%;
         font-size: 2vh;
     }
 
@@ -152,9 +157,6 @@ img {
 }
 
 @media only screen and (min-width: 1024px) {
-    h1 {
-		font-size: 38px;
-	}
 
 	h2 {
 		font-size: 28px;
