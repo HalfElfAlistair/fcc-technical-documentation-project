@@ -6,7 +6,9 @@
     </head>
     <body>
         <nav id="navbar">
-            <header>Comparing Bounce Rate in Google Analytics by Audience Segment.</header>
+            <header>
+                <h1>Comparing Bounce Rate in Google Analytics by Audience Segment.</h1>
+            </header>
             <a class="nav-link" href="#setting_up_google_analytics">Setting up Google Analytics</a>
             <a class="nav-link" href="#overview_report">Overview report</a>
             <a class="nav-link" href="#site_average_vs_benchmarking">Site Average vs Benchmarking</a>
@@ -19,11 +21,15 @@
         </nav>
         <main id="main-doc">
             <section #="introduction">
-                <header>Introduction</header>
+                <header>
+                    <h2>Introduction</h2>
+                </header>
                 <p>Bounce rate defines a single visit to your website without interaction.<br><br>For example; if you visit a sites home page but don't follow to any additional pages or complete a form before leaving, then you have bounced.<br><br>It's an important factor to look at when trying to improve conversions or SEO.<br><br>If your pages are deterring users without action then it's harder to fulfill your goals.<br><br>Thankfully Google Analytics offers various ways to view and compare your bounce rates. Thus saving you time so you can focus on improving your pages.<br><br>This document aims to give you an idea of the different options available to view segmented analytics data for bounce rate.<br><br>So scroll to find out more.</p>
             </section>
             <section class="main-section" id="setting_up_google_analytics">
-                <header>Setting up Google Analytics</header>
+                <header>
+                    <h2>Setting up Google Analytics</h2>
+                </header>
                 <p>Before you can collect all of the useful data that Google Analytics presents, you'll need to set up an account and implement the necessary tracking code.<br><br>To get set up, you can use a Google account or make one (if you don't already have one).<br><br>You can then go to Google Analytics and log in using the aforementioned account, sign up and fill in your website information.<br><br>You'll need to aquire your tracking code by clicking 'Get tracking ID'.<br><br>The code uses JavaScript and looks similar to this:</p>
                 <div class="code">
                     <code>window.dataLayer = window.dataLayer || [];<br>function gtag(){dataLayer.push(arguments);}<br>gtag('js', new Date());<br><br>gtag('config', 'UA-179006172-1');</code>
@@ -34,7 +40,9 @@
                 </div>
             </section>
             <section class="main-section" id="overview_report">
-                <header>Overview report</header>
+                <header>
+                    <h2>Overview report</h2>
+                </header>
                 <p>The first option on the list is the Overview tab.<br><br>This compares basic data for the site. Selecting Bounce Rate from the dropdown will give you a brief idea of how it's performing.</p>
                 <img src="assets/images/GA_overview_BR_dropdown.png" alt="Select Bounce Rate from the dropdown at the top of the overview data window" id="gaovdrop">
                 <p>Overview offers a little bit of segmented information such as country or operating system.</p>
@@ -42,7 +50,9 @@
                 <p>For the real detail you'll want to keep reading as there are more in depth ways to look at this information.</p>
             </section>
             <section class="main-section" id="site_average_vs_benchmarking">
-                <header>Site Average vs Benchmarking</header>
+                <header>
+                    <h2>Site Average vs Benchmarking</h2>
+                </header>
                 <p>Before we get into the specific segmenting options you can see data for, it's important to establish how to view it to meet your needs.<br><br>There are different ways to compare bounce rate across your website.<br><br>A simple option is to look at the bounce rate column when viewing a specific audience report. This will give you an idea of how different factors compare with each other and against your site average.</p>
                 <img src="assets/images/GA_BR_column.png" alt="The Bounce Rate column provides a site wide average Bounce Rate">
                 <p>For a more detailed analysis it's good to assess your bounce rate against the industry average.<br><br>To do this, click on the comparison filter button and then, once the window has loaded, select bounce rate from the dropdown.<br><br>The negative figures, to the left of the industry average line, are the ones performing better. Those to the right, with red coloured bars, are the ones you may want to improve.</p>
@@ -50,7 +60,9 @@
                 <p></p>
             </section>
             <section class="main-section" id="segmented_bounce_rate_views">
-                <header>Segmented Bounce Rate Views</header>
+                <header>
+                    <h2>Segmented Bounce Rate Views</h2>
+                </header>
                 <p>The following segments are really useful for analysing bounce rate.</p>
                 <ul>
                     <li>Demographics</li>
@@ -62,7 +74,9 @@
                 <p>Now lets take a closer look at what they do...</p>
             </section>
             <section class="main-section" id="demographics">
-                <header>Demographics</header>
+                <header>
+                    <h2>Demographics</h2>
+                </header>
                 <p>In this section you're able to compare bounce rate by age or gender.</p>
                 <div>
                     <h3>Age</h3>
@@ -76,20 +90,30 @@
                 </div>
             </section>
             <section class="main-section" id="technology">
-                <header>Technology</header>
+                <header>
+                    <h2>Technology</h2>
+                </header>
                 <p>Making sure your site works across browsers, versions and operating systems is important.<br><br>You can use the Broser & OS view to compare bounce rate for various spec.</p>
                 <img src="assets/images/GA_OS.png" alt="Bounce Rate by Operating System compared with industry average">
                 <p>Find out how your bounce rate varies between Chrome and Safari, Windows and iOS, different screen sizes and more.<br><br>Tip: click on the respective browser to load a new screen comparing it's versions.</p>
                 <img src="assets/images/GA_browser_version.png" alt="Industy average Bounce Rate compared with versions of Firefox">
             </section>
             <section class="main-section" id="mobile">
-                <header>Mobile</header>
-                <p>Though screen size gives you a bit of an idea, there's actually the option for a device comparison.<br><br>Just check out the mobile tab below technology.<br><br>Overview will simply show you data for desktop, mobile and tablet.<br><br>Devices gets more specific and details brand, model etc for comparison.</p>
+                <header>
+                    <h2>Mobile</h2>
+                </header>
+                <div>
+                    <p>Though screen size gives you a bit of an idea, there's actually the option for a device comparison.<br><br>Just check out the mobile tab below technology.<br><br>Overview will simply show you data for desktop, mobile and tablet.<br><br>Devices gets more specific and details brand, model etc for comparison.</p>
+                </div>
                 <img src="assets/images/GA_devices.png" alt="Bounce Rate for different devices compared with industry average">
             </section>
             <section class="main-section" id="geo">
-                <header>Geo</header>
-                <p>You can also look at bounce rate by language or geographic location. This is important for multi-national businesses or those in countries like Canada where different languages are regionally prevalent.</p>
+                <header>
+                    <h2>Geo</h2>
+                </header>
+                <div>
+                    <p>You can also look at bounce rate by language or geographic location. This is important for multi-national businesses or those in countries like Canada where different languages are regionally prevalent.</p>
+                </div>
                 <div>
                     <h3>Location</h3>
                     <p>Setting location gives you the option of a country, city, continent or sub-continent view.<br><br>If bounce rate is notably better in the US than UK then you'll want to investigate how your site and market differ on both sides of the Atlantic.</p>
@@ -106,12 +130,16 @@
                 </div>
             </section>
             <section class="main-section" id="interests">
-                <header>Interests</header>
+                <header>
+                    <h2>Interests</h2>
+                </header>
                 <p>Interests categorises users by, yes you guessed it, what they're interested in.<br><br>Aside from the overview, it's split into two areas: affinity category and in-market segment (users earlier and later in the purchase process respectively).</p>
                 <img src="assets/images/GA_affinity.png" alt="Affinity Category Bounce Rate compared with industry average">
             </section>
             <section>
-                <header>Summary</header>
+                <header>
+                    <h2>Summary</h2>
+                </header>
                 <p>There is still lots more that can be done when using Google Analytics. That includes other ways to compare bounce rate as well as a vast myriad of other options.<br><br>Hopefully the information provided has given you a better idea of some options available to you though.<br><br>It's definitely worth exploring this tool and how it can benefit your business.<br><br>Google even offer free courses to help you learn about using it, check out their Analytics Academy for more information.</p>
             </section>
         </main>
